@@ -33,6 +33,6 @@ jobs:
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           brew install --cask android-sdk
           ls
-          cd Users/runner
+          cd work
           ls
           bubblewrap doctor
