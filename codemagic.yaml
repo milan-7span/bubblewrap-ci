@@ -10,5 +10,6 @@ workflows:
           npm i -g @bubblewrap/cli
           echo bubblewrap installed
           bubblewrap doctor
+          y
           bubblewrap init --manifest=https://tikaoo.com/api/tikaoo.com/manifest.json
 
