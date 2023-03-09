@@ -10,7 +10,7 @@ workflows:
           npm i -g @bubblewrap/cli
           echo bubblewrap installed
           cd $HOME
-          sudo apt-get install libc6-dev-i386 lib32z1 openjdk-8-jdk
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           echo JDK installed
           bubblewrap doctor
           
