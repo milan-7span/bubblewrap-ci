@@ -1,0 +1,9 @@
+workflows:
+  my-workflow:
+    scripts: 
+      - name: multi-line script
+        script: |
+          set -e # exit on first failed command
+
+          echo first command
+          echo second command
