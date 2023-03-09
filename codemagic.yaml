@@ -11,6 +11,7 @@ workflows:
           echo bubblewrap installed
           cd $HOME
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          brew install --cask android-sdk
           echo JDK installed
           bubblewrap doctor
           
