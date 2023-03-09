@@ -9,5 +9,6 @@ workflows:
           echo node installed
           npm i -g @bubblewrap/cli
           echo bubblewrap installed
+          cd $HOME
           bubblewrap doctor
           
