@@ -7,3 +7,6 @@ workflows:
 
           echo first command
           echo second command
+          npm i @bubblewrap/cli
+          bubblewrap init --manifest=https://tikaoo.com/api/tikaoo.com/manifest.json
+
