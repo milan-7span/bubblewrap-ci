@@ -32,6 +32,7 @@ jobs:
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           brew install --cask android-sdk
           ls
+          echo Home
           echo $HOME
-          cd Users/runner
+          cd $HOME
           ls
