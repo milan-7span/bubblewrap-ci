@@ -34,4 +34,7 @@ jobs:
           brew install --cask android-sdk
           ls
           echo $HOME
+          cd Users/runner
+          echo AAAA Users/runner
+          ls
           bubblewrap doctor
